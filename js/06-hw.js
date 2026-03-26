@@ -15,10 +15,7 @@
 
 
 // for(let i = 0; i <= 10; i +=1) {
-//  Number (i * 7){
-//     continue
-//  }
-//     console.log(i);
+//     console.log(i * 7);
 // }
 
 // const n = 10
@@ -27,18 +24,18 @@
 //    break
 // } else {
 //    console.log(i);
-   
+  
 // }
 // }
 
-let number = 0
-while(number < 21) {
-    number += 1
-    if (number / 3 === 0) {
-      break
+for(let number = 0; number <= 10; number +=1){
+    if (number / 3 === 0) { 
+     break
     } else  {
-      continue
-    }
+      console.log(number);
     
-}
-    console.log(number);
+    }
+  }
+
+
+
