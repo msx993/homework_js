@@ -3,22 +3,34 @@
 // console.log(a);
 
 // const string = [pear, mango, carrot];
-// string.splice(1,0, 'banana')
+// string.push("banana")
 // console.log(string);
+
+// let values = [10, 20, 30, 40]
+
 
 // const array = ["Mango", "hurries", "to", "the", "train"];
 // console.log(array);
 
 
-// const array = ["Mangos", "hurries", "to", "the", "trains"];
-// if (array.length > 5) {
+// const array = [ 12, 117, 3, 8, 10];
+// for (let i = 0; i < array.length; i += 1) {
 //     console.log(array);
+    
 // }
 
+// let words = ["mango", "banana", "pear", "apple", "onion"]
+// for (let i = 0; i < words.length; i += 1) {
+//     if (words[i].length > 5) {
+//         console.log(words[i]);
+        
+//     }
+// }
 
-
-const array = [2, 4, 3, 5, 6, 22, 189, 90, 133, 24];
-for (i = 0; i <= 10; i += 1) {
-    
-}
-
+// let list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// console.log("Парні числа:");
+// for (let i = 0; i < list.length; i += 1) {
+//     if (list[i] % 2 === 0) {
+//         console.log(list[i]);
+//     }
+// }
