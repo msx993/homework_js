@@ -6,11 +6,25 @@
 // string.push("banana")
 // console.log(string);
 
-// let values = [10, 20, 30, 40]
 
 
-// const array = ["Mango", "hurries", "to", "the", "train"];
-// console.log(array);
+
+
+//  const values = (n, m) => {
+// const result = n * m;
+// return result
+//  }
+//  console.log(values(20, 5));
+// values(20, 5)
+
+
+
+
+// const array = (...args) => {
+// console.log(args);
+// }
+//array("Mango", "hurries", "to", "the", "train");
+
 
 
 // const array = [ 12, 117, 3, 8, 10];

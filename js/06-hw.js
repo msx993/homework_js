@@ -22,20 +22,12 @@
 // for(let i = 0; i <= n; i +=1) {
 // if(i === 10){
 //    break
-// } else {
-//    console.log(i);
-  
 // }
 // }
-
-for(let number = 0; number <= 10; number +=1){
-    if (number / 3 === 0) { 
-     break
-    } else  {
-      console.log(number);
-    
-    }
-  }
-
+// for(let number = 0; number <= 10; number +=1){
+//     if (number / 3 === 0) { 
+//      break
+//   }
+// }
 
 
