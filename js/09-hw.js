@@ -35,3 +35,42 @@
 // }
 // message("its the best sale for you")
 // console.log(message("its the best sale for you"));
+
+
+
+
+
+
+// const numbers = [];
+// let input;
+
+// while (true) {
+//   input = prompt("Введіть число (або натисніть Cancel для завершення):");
+
+//   if (input === null) {
+//     break;
+//   }
+
+
+//   const num = Number(input);
+
+//   // перевірка: чи це число
+//   if (!isNaN(num)) {
+//     numbers.push(num);
+//   } else {
+//     alert("Введіть коректне число!");
+//   }
+// }
+
+
+// if (numbers.length > 0) {
+//   let total = 0;
+
+//   for (const num of numbers) {
+//     total += num;
+//   }
+
+//   console.log(`Загальна сума чисел дорівнює ${total}`);
+// } else {
+//   console.log("Масив порожній");
+// }
