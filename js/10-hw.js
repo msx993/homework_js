@@ -22,11 +22,11 @@ const calculate =(a, c, operation) => {
 a(10)
 b(5)
 c(0)
-console.log(
-a(10);
-b(5);
-c(0);
-);
+// console.log(
+// a(10);
+// b(5);
+// c(0);
+// );
 
 
 //     console.log(calculate(10, 5, add));      // Повинно показати 15
