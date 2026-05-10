@@ -60,14 +60,14 @@
 // console.log(getAllPropValues(products, "name")); 
 
 
-calculateTotalPrice = function (allProdcuts, productCount, productName, productVaule) {
-let result = productVaule * productCount
-return result
+// calculateTotalPrice = function (allProdcuts, productCount, productName, productVaule) {
+// let result = productVaule * productCount
+// return result
 
 
-}
-productVaule(15)
-productCount(10)
-productName("apple")
-console.log(result);
+// }
+// productVaule(15)
+// productCount(10)
+// productName("apple")
+// console.log(result);
 
