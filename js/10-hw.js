@@ -1,27 +1,27 @@
-const calculate =(a, b, operation) => {
-    const result = a + b
-    return result
-}
-const calculate =(a, b, operation) => {
-     const result = a - b
-    return result
-}
-const calculate =(a, b, operation) => {
- const result = a * b
-    return result
-}
-const calculate =(a, b, operation) => {
- const result = a / b
-    return result
-}
+// const calculate =(a, b, operation) => {
+//     const result = a + b
+//     return result
+// }
+// const calculate =(a, b, operation) => {
+//      const result = a - b
+//     return result
+// }
+// const calculate =(a, b, operation) => {
+//  const result = a * b
+//     return result
+// }
+// const calculate =(a, b, operation) => {
+//  const result = a / b
+//     return result
+// }
 
-const calculate =(a, c, operation) => {
- const result = a / c
-    return result
-}
-a(10)
-b(5)
-c(0)
+// const calculate =(a, c, operation) => {
+//  const result = a / c
+//     return result
+// }
+// a(10)
+// b(5)
+// c(0)
 // console.log(
 // a(10);
 // b(5);
