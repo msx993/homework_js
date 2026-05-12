@@ -60,14 +60,21 @@
 // console.log(getAllPropValues(products, "name")); 
 
 
-// calculateTotalPrice = function (allProdcuts, productCount, productName, productVaule) {
-// let result = productVaule * productCount
-// return result
+function calculateTotalPrice(allProducts, productName) {
+  for (const product of allProducts) {
+    if (product.name === productName) {
+      return product.price * product.quantity;
+    }
+  }
+
+  return 0;
+}
 
 
-// }
-// productVaule(15)
-// productCount(10)
-// productName("apple")
-// console.log(result);
+const products = [
+  { name: "Apple", price: 30, quantity: 3 },
+  { name: "Banana", price: 20, quantity: 5 },
+  { name: "Orange", price: 15, quantity: 4 },
+];
 
+console.log(calculateTotalPrice(products, "Banana")); 
