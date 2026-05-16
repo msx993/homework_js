@@ -1,31 +1,31 @@
-const numbers = [1, 5, 8, 12, 3, 15, 7, 20];
-const words = ['кіт', 'собака', 'миша', 'папуга', 'хомяк'];
-const count = 0
-for (let i = 0; i < numbers.length; i++) {
-    const element = numbers[i];
-    console.log(i);
-    if (i / 2 === 0) {
-        condition = true
-    } else {
-        condition = false
-    }
-    console.log(condition);
-    if (condition === true) {
-        count +=1
-    }
-}
-// Функція countItems тут
-countItems = function(array, condition) {
-}
-// Умови для перевірки:
-const isEven = num => num % 2 === 0;
-const isLarge = num => num > 10;
-const isShort = word => word.length <= 3;
+// const numbers = [1, 5, 8, 12, 3, 15, 7, 20];
+// const words = ['кіт', 'собака', 'миша', 'папуга', 'хомяк'];
+// const count = 0
+// for (let i = 0; i < numbers.length; i++) {
+//     const element = numbers[i];
+//     console.log(i);
+//     if (i / 2 === 0) {
+//         condition = true
+//     } else {
+//         condition = false
+//     }
+//     console.log(condition);
+//     if (condition === true) {
+//         count +=1
+//     }
+// }
+// // Функція countItems тут
+// countItems = function(array, condition) {
+// }
+// // Умови для перевірки:
+// const isEven = num => num % 2 === 0;
+// const isLarge = num => num > 10;
+// const isShort = word => word.length <= 3;
 
-// Тестування
-console.log('Парних чисел:', countItems(numbers, isEven));
-console.log('Чисел більше 10:', countItems(numbers, isLarge));
-console.log('Коротких слів:', countItems(words, isShort));
+// // Тестування
+// console.log('Парних чисел:', countItems(numbers, isEven));
+// console.log('Чисел більше 10:', countItems(numbers, isLarge));
+// console.log('Коротких слів:', countItems(words, isShort));
 
 
 
