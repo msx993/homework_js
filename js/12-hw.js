@@ -60,21 +60,21 @@
 // console.log(getAllPropValues(products, "name")); 
 
 
-function calculateTotalPrice(allProducts, productName) {
-  for (const product of allProducts) {
-    if (product.name === productName) {
-      return product.price * product.quantity;
-    }
-  }
+// function calculateTotalPrice(allProducts, productName) {
+//   for (const product of allProducts) {
+//     if (product.name === productName) {
+//       return product.price * product.quantity;
+//     }
+//   }
 
-  return 0;
-}
+//   return 0;
+// }
 
 
-const products = [
-  { name: "Apple", price: 30, quantity: 3 },
-  { name: "Banana", price: 20, quantity: 5 },
-  { name: "Orange", price: 15, quantity: 4 },
-];
+// const products = [
+//   { name: "Apple", price: 30, quantity: 3 },
+//   { name: "Banana", price: 20, quantity: 5 },
+//   { name: "Orange", price: 15, quantity: 4 },
+// ];
 
-console.log(calculateTotalPrice(products, "Banana")); 
+// console.log(calculateTotalPrice(products, "Banana")); 

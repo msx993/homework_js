@@ -170,9 +170,31 @@ const users = [
   },
 
 ];
-// const getUserNames = users.map((item) => {
-// return item.name
-// });
+// const getUserNames = users => {
+//   return users.map(user => user.name);
+// };
 
-// console.log(getUserNames(users));
-// [ 'Moore Hensley', 'Sharlene Bush', 'Ross Vazquez', 'Elma Head', 'Carey Barr', 'Blackburn Dotson', 'Sheree Anthony' ]    
+// // console.log(getUserNames(users));
+
+
+// const getUsersWithEyeColor = (users, color) => {
+//   return users.map(user => user.eyeColor)
+// };
+
+// console.log(getUsersWithEyeColor(users, 'blue')); 
+
+// const getUsersWithGender = (users, gender) => {
+//   return users.map(user => user.gender)
+// };
+
+// console.log(getUsersWithGender(users, 'male')); 
+  
+
+
+// const getInactiveUsers = users => {
+// if (users.isActive === false) {
+//   return users.map(user => user.name)
+// }
+// };
+
+// console.log(getInactiveUsers(users));
